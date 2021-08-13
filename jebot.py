@@ -30,7 +30,7 @@ Hit help button to find out more about how to use me</b>""",
                                             "sᴜᴘᴘᴏʀᴛ", url="https://t.me/TeamLadz_bothub")
                                     ],[
                                       InlineKeyboardButton(
-                                            "ᴅᴇᴠ", url="https://t.me/Ok_bie_bot)
+                                            "ᴅᴇᴠ", url="https://t.me/Ok_bie_bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        

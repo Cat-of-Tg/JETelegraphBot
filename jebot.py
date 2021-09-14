@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-I can upload photos or videos to telegraph. Made by @ok_bie_bot
+Hello [🧚🏻‍♀️]("https://telegra.ph/file/7817c7fc190e423d008d8.jpg") I can upload photos or videos to telegraph. Made by [ᴍʏ ᴍᴀsᴛᴇʀ]("tg://t.me/ok_bie_bot").
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -28,9 +28,9 @@ Hit help button to find out more about how to use me</b>""",
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
                                             "sᴜᴘᴘᴏʀᴛ", url="https://t.me/TeamLadz_bothub")
-                                    ],[
-                                      InlineKeyboardButton(
-                                            "ᴅᴇᴠ", url="https://t.me/Ok_bie_bot")
+                                    ],[InlineKeyboardButton("UPDATES", url="https://t.me/team_lad")]
+                                      [InlineKeyboardButton(
+                                            "ᴅᴇᴠ", url="https://t.me/cat_of_tg")]
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -55,6 +55,7 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
                                   ],[
                                         InlineKeyboardButton(
                                             "ᴅᴇᴠ", url="https://t.me/ok_bie_bot")
+                                      [InlineKeyboardButton("UPDATES", url="https://t.me/team_lad")]
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -69,7 +70,6 @@ async def about(client, message):
 
 <b> sᴜᴘᴘᴏʀᴛ:</b> <a href="https://t.me/Teamladz_bothub">sᴜᴘᴘᴏʀᴛ</a>
 
-<b> ᴍᴜsɪᴄ ɢʀᴏᴜᴘ:</b> <a href="https://t.me/music_and_chats">ᴍᴜsɪᴄ ɢʀᴏᴜᴘ</a>
 
 <b>~ @TeamLadz_bothub</b>""",
      reply_markup=InlineKeyboardMarkup(
@@ -109,7 +109,7 @@ async def telegraphvid(client, message):
     except:
         await msg.edit_text("Video size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @teamladz_bothub**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @team_lad**',
             disable_web_page_preview=True,
         )
     finally:
@@ -125,7 +125,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @TeamLadz_bothub**',
+        await msg.edit_text(f'**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}\n\nJoin @Team_lad**',
             disable_web_page_preview=True,
         )
     finally:
@@ -147,7 +147,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @teamladz_bothub
+Join @team_lad
 """
 )
 

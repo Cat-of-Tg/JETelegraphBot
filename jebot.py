@@ -31,7 +31,7 @@ Hit help button to find out more about how to use me</b>""",
                                     ],[InlineKeyboardButton("UPDATES", url="https://t.me/team_lad")]
                                       [InlineKeyboardButton(
                                             "ᴅᴇᴠ", url="https://t.me/cat_of_tg")]
-                                   )]]
+                                   ]
                             ),        
             disable_web_page_preview=True,        
             parse_mode="html")

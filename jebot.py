@@ -27,10 +27,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "sᴜᴘᴘᴏʀᴛ", url="https://t.me/TeamLadz_bothub")
-                                    ],[InlineKeyboardButton("UPDATES", url="https://t.me/team_lad")]
+                                            "ᴅᴇᴠ", url="https://t.me/cat_of_tg")
+                                    ],
                                       [InlineKeyboardButton(
-                                            "ᴅᴇᴠ", url="https://t.me/cat_of_tg")]
+                                            "sᴜᴘᴘᴏʀᴛ", url="https://t.me/team_lad")]
                                    ]
                             ),        
             disable_web_page_preview=True,        

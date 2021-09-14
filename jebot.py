@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-Hello [🧚🏻‍♀️]("https://telegra.ph/file/7817c7fc190e423d008d8.jpg") I can upload photos or videos to telegraph. Made by [ᴍʏ ᴍᴀsᴛᴇʀ]("tg://t.me/ok_bie_bot").
+Hello [🧚🏻‍♀️](https://telegra.ph/file/7817c7fc190e423d008d8.jpg) I can upload photos or videos to telegraph. Made by [ᴍʏ ᴍᴀsᴛᴇʀ](tg://t.me/ok_bie_bot).
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(

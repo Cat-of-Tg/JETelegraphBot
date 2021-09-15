@@ -5,6 +5,8 @@ from telegraph import upload_file
 from config import Config
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
+Poison = (https://telegra.ph/file/7817c7fc190e423d008d8.jpg)
+
 Jebot = Client(
    "Telegraph Uploader",
    api_id=Config.APP_ID,
@@ -19,7 +21,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-Hello [🧚🏻‍♀️](https://telegra.ph/file/7817c7fc190e423d008d8.jpg) I can upload photos or videos to telegraph. Made by [ᴍʏ ᴍᴀsᴛᴇʀ](tg://t.me/ok_bie_bot).
+Hello  I can upload photos or videos to telegraph. Made by Poison
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(

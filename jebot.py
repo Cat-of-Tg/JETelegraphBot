@@ -5,7 +5,7 @@ from telegraph import upload_file
 from config import Config
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-Poison = (https://telegra.ph/file/7817c7fc190e423d008d8.jpg)
+Poison = ("https://telegra.ph/file/7817c7fc190e423d008d8.jpg")
 
 Jebot = Client(
    "Telegraph Uploader",
